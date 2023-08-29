@@ -1,0 +1,23 @@
+.categoryName{
+    background:rgb(157 183 235);
+    width: 23%;
+    margin: 30px 10px !important;
+
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 550px){
+    .categoryName{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .categoryName{
+      font-size: 14px;
+      margin: 30px 10px !important;
+      padding: 20px 0;
+    }
+  }
